@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Feed</title>
+  <entry>
+    <title>Post One</title>
+    <author><name>Nat Torkington</name></author>
+  </entry>
+  <entry>
+    <title>Post Two</title>
+    <author><name>Alison McCauley</name></author>
+  </entry>
+</feed>
