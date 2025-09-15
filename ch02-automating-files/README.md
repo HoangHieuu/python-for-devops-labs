@@ -17,47 +17,30 @@ This folder demonstrates safe, portable file automation in Python: reading/writi
 ---
 
 ## 📁 Layout
-
+```bash
 ch02-automating-files/
 ├── README.md
-
 ├── requirements-optional.txt
-
 ├── scripts/
-
 │ ├── 01_text_files.py # text/binary I/O, newline normalize, generators
-
 │ ├── 02_json_yaml_xml.py # JSON (stdlib), YAML (optional), XML (stdlib)
-
 │ ├── 03_csv_and_pandas.py 
-
 │ ├── 04_regex_apache_log.py 
-
 │ ├── 05_os_and_path.py # os + os.path: listdir/stat/split/os.walk + find_rc
-
 │ └── 06_pathlib_demo.py # pathlib: đường dẫn như object; rewrite find_rc
-
 └── data/
-
 ├── bookofdreams.txt # text 
-
 ├── demo.bin # binary 
-
 ├── .envrc # file env ví dụ
-
 ├── service-policy.json # JSON policy
-
 ├── verify-apache.yml # YAML (Ansible-like)
-
 ├── feed.atom.xml # XML (Atom)
-
 ├── sample-data.csv 
-
 └── access.log 
 
 
 ---
-
+```
 ## ⚙️ Prerequisites
 
 - **Python 3.9+** (Recommend 3.10+)
